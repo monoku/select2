@@ -3220,7 +3220,7 @@ the specific language governing permissions and limitations under the Apache Lic
         },
         formatResultCssClass: function(data) {return data.css;},
         formatSelectionCssClass: function(data, container) {return undefined;},
-        formatNoMatches: function () { return "No matches found"; },
+        formatNoMatches: function () { return "No se han encontrado coincidencias"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Por favor introduce mas de " + n + " caracter" + (n == 1? "" : "es"); },
         formatInputTooLong: function (input, max) { var n = input.length - max; return "Por favor elimina " + n + " caracter" + (n == 1? "" : "es"); },
         formatSelectionTooBig: function (limit) { return "Sólo se puede seleccionar " + limit + " item" + (limit == 1 ? "" : "s"); },
